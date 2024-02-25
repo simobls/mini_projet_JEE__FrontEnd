@@ -4,7 +4,6 @@ body {
     padding: 0;
     background-color: #f9f9f9;
     font-family: 'Raleway', sans-serif;
-    cursor: url(../assets/supercars-mercedes-benz-g-500-pack.png), auto;
 }
 .hero{
     background-image: url("../assets/campbell-3ZUsNJhi_Ik-unsplash.jpg");
@@ -59,7 +58,10 @@ nav div {
     margin-left: 5px;
     font-size: 1rem;
 }
-
+.log a {
+    color: #222222;
+    text-decoration: none;
+}
 .log {
     background: transparent;
 	border-radius: 13px;

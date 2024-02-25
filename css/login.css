@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Lora:wght@500&family=Raleway:wght@500&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #222222;
+}
+section{
+    border-radius: 20px;
+    display: flex;
+    margin: 2vh 2vh;
+}
+
+.pic{
+    flex: 0.5;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../assets/erik-mclean-ZRns2R5azu0-unsplash.jpg);
+    width: 50vh;
+    height: 98vh;
+    background-size: cover;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display: flex;
+}
+
+.pic p{
+    margin: 85.7vh 0;
+    color: #f9f9f9;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.pic img {
+    margin: 82.5vh 4vh;
+    margin-right: 1vh;
+    width: 13vh;
+    height: 13vh;
+}
+
+.login{
+    flex: 0.5;
+    background-color: #f9f9f9;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
