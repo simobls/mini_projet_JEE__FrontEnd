@@ -256,6 +256,26 @@ input, select {
     font-size: 1rem;
     text-align: center;
     padding: 1vh 2vh;
+    color: #2e2d2d;
+    background-color: #f9f9f9;
+    border: #4b4a4a 0.2px solid;
+    border-radius: 1.5vh;
+}
+
+.more:hover{
+    font-size: 1rem;
+    text-align: center;
+    padding: 1vh 2vh;
+    color: #f9f9f9;
+    background-color: #2e2d2d;
+    border: #4b4a4a 0.2px solid;
+    border-radius: 1.5vh;
+}
+
+.more_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .info{
@@ -268,4 +288,53 @@ input, select {
 .info p svg {
     margin-right: 5px;
     margin-top: 5px;
+}
+
+.infos{
+    margin: 10vh 3vh;
+    display: flex;
+    width: auto;
+    height: 70vh;
+    gap: 3vh;
+}
+
+.info_1{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+}
+
+.info_1_1{
+    flex: 1;
+    background-image: url(../assets/oliur-ovrOPhu8vSw-unsplash.jpg);
+    background-size: cover;
+    border-radius: 2vh;
+    filter: brightness(45%)
+}
+.info_1_2{
+    flex: 0.8;
+    background-image: url(../assets/david-leveque-esvWH-owWug-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 2vh;
+    filter: brightness(45%)
+}
+.info_2{
+    flex: 1.5;
+    background-size: cover;
+    border-radius: 2vh;
+    background-repeat: no-repeat;
+    background-image: url(../assets/dhiva-krishna-GRV4ypBKgxE-unsplash.jpg);
+    filter: brightness(40%);
+}
+
+.brands{
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    opacity: 0.6;
 }
