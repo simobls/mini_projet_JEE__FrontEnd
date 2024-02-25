@@ -22,17 +22,19 @@ section{
 }
 
 .pic p{
-    margin: 85.7vh 0;
+    margin: 91.4vh 0;
     color: #f9f9f9;
-    font-size: 2rem;
+    font-size: 1rem;
     text-align: center;
+    opacity: 0.6;
 }
 
 .pic img {
-    margin: 82.5vh 4vh;
+    margin: 90vh 3vh;
     margin-right: 1vh;
-    width: 13vh;
-    height: 13vh;
+    width: 6vh;
+    height: 6vh;
+    opacity: 0.6;
 }
 
 .login{
@@ -163,3 +165,13 @@ section{
     border: 1px solid #2d79f3;
     ;
   }  
+
+.form img {
+    width: 20vh;
+    height: 20vh;
+    border-radius: 50%;
+    margin-left: 25vh;
+    cursor: pointer;
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+}
