@@ -4,6 +4,7 @@ body {
     padding: 0;
     background-color: #f9f9f9;
     font-family: 'Raleway', sans-serif;
+    cursor: url(../assets/supercars-mercedes-benz-g-500-pack.png), auto;
 }
 .hero{
     background-image: url("../assets/campbell-3ZUsNJhi_Ik-unsplash.jpg");
@@ -291,7 +292,7 @@ input, select {
 }
 
 .infos{
-    margin: 10vh 3vh;
+    margin: 5vh 3vh;
     display: flex;
     width: auto;
     height: 70vh;
@@ -331,10 +332,87 @@ input, select {
 
 .brands{
     margin-top: 10vh;
+    margin-bottom: 10vh;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     font-size: 1.2rem;
     font-weight: bolder;
     opacity: 0.6;
+}
+
+footer{
+    border-radius: 2vh;
+    background-color: #070707;
+    display: flex;
+    color: #f9f9f9;
+    flex-direction: column;
+    margin: 5vh 3vh;
+}
+.footer_1{
+    display: flex;
+    gap: 10vh;
+}
+.footer_2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 0.8rem;
+    margin: 1vh 5vh;
+}
+
+.footer_2 div {
+    display: flex;
+    flex-direction: row;
+    justify-self: flex-end;
+    gap: 4vh;
+    cursor: pointer;
+}
+
+.footer_1_1 {
+    display: flex;
+    flex-direction: column;
+    margin: 5vh 5vh;
+    margin-bottom: 1vh;
+    flex: 0.5;
+    font-size: 0.8rem;
+    line-height: 1.5;
+}
+
+.footer_1_1 p {
+    opacity: 0.8;
+}
+
+.footer_1_2{
+    flex: 0.25;
+    margin-top: 3vh;
+}
+.footer_1_2 div {
+    display: flex;
+    flex-direction: column;
+    gap: 0vh;
+    cursor: pointer;
+}
+.footer_1_2 div p {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 2.5vh;
+    font-size: 0.8rem;
+    opacity: 0.8;
+}
+.tt {
+    font-size: 1.2rem;
+}
+
+.footer_1_3{
+    flex: 0.25;
+}
+
+.footer_1_4{
+    flex: 0.5;
+}
+
+.footer_1_1 img {
+    width: 7vh;
+    height: 7vh;
 }
