@@ -19,3 +19,19 @@ log_button.addEventListener("click", () => {
     switchForms(log, sign);
 });
 
+document.addEventListener("DOMContentLoaded", function () {
+    const urlParams = new URLSearchParams(window.location.search);
+    const hideLogin = urlParams.get('hideLogin');
+
+    const sign = document.querySelector(".signup");
+    const log = document.querySelector(".login");
+
+    if (hideLogin === "true") {
+        sign.classList.remove("hide");
+        log.classList.add("hide");
+    }
+    else if (hideLogin === "false") {
+        sign.classList.add("hide");
+        log.classList.remove("hide");
+    }
+});
