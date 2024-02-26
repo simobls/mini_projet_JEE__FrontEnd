@@ -52,6 +52,7 @@ section{
 }
 
 
+
 .form {
     padding: auto;
     margin: auto;
@@ -100,7 +101,7 @@ section{
     outline: none;
   }
   
-  .inputForm:focus-within {
+  .inputForm:focus-within, .inputForm1:focus-within {
     border: 1.5px solid #2d79f3;
   }
   
@@ -179,8 +180,16 @@ section{
     margin-left: 25vh;
     cursor: pointer;
     margin-bottom: 5vh;
-    margin-top: 5vh;
+    margin-top: 8vh;
     opacity: 0.85;
+}
+
+.signup .form img{
+    width: 7vh;
+    height: 7vh;
+    margin-top: 0vh;
+    margin-bottom: 2vh;
+    margin-left: 0;
 }
 
 .form img:hover{
@@ -213,6 +222,24 @@ section{
 
 .hide {
     opacity: 0;
-    cursor: none;
     transition: opacity 0.5s ease-in-out;
+    cursor: auto;
+    pointer-events: none;
+}
+
+.in_name{
+    display: flex;
+    gap: 2vh;
+}
+
+.inputForm1 {
+    border: 1.5px solid #ecedec;
+    border-radius: 10px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    transition: 0.2s ease-in-out;
+    width: 32.8vh;
+    margin-top: 1.5vh;
 }
