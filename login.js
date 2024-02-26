@@ -8,30 +8,16 @@ const log_button = document.getElementById("log");
 const clickme_button = document.getElementById("clickme");
 const sign = document.querySelector(".signup");
 const log = document.querySelector(".login");
+const typo = document.querySelector(".typo");
 
 sign_button.addEventListener("click", () => {
     event.preventDefault();
     switchForms(sign, log);
+    typo.classList.toggle("hide");
 });
 
 log_button.addEventListener("click", () => {
     event.preventDefault();
     switchForms(log, sign);
-});
-
-document.addEventListener("DOMContentLoaded", function () {
-    const urlParams = new URLSearchParams(window.location.search);
-    const hideLogin = urlParams.get('hideLogin');
-
-    const sign = document.querySelector(".signup");
-    const log = document.querySelector(".login");
-
-    if (hideLogin === "true") {
-        sign.classList.remove("hide");
-        log.classList.add("hide");
-    }
-    else if (hideLogin === "false") {
-        sign.classList.add("hide");
-        log.classList.remove("hide");
-    }
+    typo.classList.toggle("hide");
 });

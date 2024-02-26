@@ -222,9 +222,7 @@ section{
 
 .hide {
     opacity: 0;
-    transition: opacity 0.5s ease-in-out;
-    cursor: auto;
-    pointer-events: none;
+    display: none;
 }
 
 .in_name{
@@ -242,4 +240,17 @@ section{
     transition: 0.2s ease-in-out;
     width: 32.5vh;
     margin-top: 1.5vh;
+}
+
+.typo {
+    flex: 0.5;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    justify-self: flex-end;
+    align-self: flex-end;
+    width: 50vh;
 }
