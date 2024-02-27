@@ -417,9 +417,69 @@ footer{
 
 .footer_1_4{
     flex: 0.5;
+    margin-top: 3vh;
 }
 
 .footer_1_1 img {
     width: 7vh;
     height: 7vh;
+}
+
+.inputForm1 {
+    border: 1.5px solid #6c6a6a;
+    border-radius: 10px;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    transition: 0.2s ease-in-out;
+    width: 45vh;
+    margin-top: 0.5vh;
+    background-color: #4b4a4a;
+}
+
+.input {
+    margin-left: 2px;
+    border-radius: 10px;
+    border: none;
+    width: 85%;
+    height: 80%;
+    background-color: transparent;
+    color: #c4c4c4ab;
+    font-family: 'Raleway', sans-serif;
+  }
+
+  .input:focus {
+    outline: none;
+  }
+
+  .inputForm1 button{
+    margin-right: 1vh;
+    border: none;
+    border-radius: 1vh;
+    font-size: 0.9rem;
+    padding: 1.5vh;
+    font-family: 'Raleway', sans-serif;
+  }
+
+  .tt2 {
+    font-size: 1.2rem;
+    margin-bottom: 1.5vh;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    gap: 3vh;
+    margin-top: 3vh;
+    align-items: center;
+    justify-content: center;
+    margin-right: 4vh;
+}
+
+.icons svg {
+    background-color: #535353;
+    padding:1.2vh;
+    border-radius: 999px;
+    cursor: pointer;
 }
