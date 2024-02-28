@@ -1,0 +1,54 @@
+.add_form {
+    display: flex;
+    margin-right: auto;
+}
+
+.in_name div {
+    display: flex;
+}
+
+.flex-column{
+    margin-top: 5vh;
+    margin-right: 5vh;
+}
+
+.in_name select {
+    background-color: transparent;
+}
+
+input[type=file]::file-selector-button {
+    background-color: transparent;
+    border: none;
+}
+
+.lm{
+    margin-right: 7.5vh;
+}
+
+.lt{
+    margin-right: 5vh;
+}
+
+.ly{
+    margin-right: 7.5vh;
+}
+
+.add_form{
+    padding-left: 10vh;
+    padding-bottom: 5vh;
+    border-bottom: 1px #22222232 solid;
+    width: 100%;
+}
+
+.addbtn {
+    margin-bottom: 5vh;
+    margin-left: 5vh;
+    background: #2e2d2d;
+	border-radius: 10px;
+    box-sizing: border-box;
+    color: #f9f9f9;
+	cursor: pointer;
+	padding: 1.5vh 5vh;
+    border: none;
+    font-size: 1.1rem;
+}

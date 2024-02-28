@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/dashboard.css">
+    <link rel="stylesheet" href="css/car.css">
+</head>
+<body>
+    <section>
+        <div class="tools">
+            <a href=""><img src="assets/Picsart_24-02-22_14-56-36-631.png" alt="" class="logo"></a>
+            <div>
+                <a href=""><img src="assets/sports-car.png" alt="" class="logo2 main"></a>
+                <a href="reservation_page.html"><img src="assets/icons8-reservation-30.png" alt="" class="logo2"></a>
+                <a href="location_page.html"><img src="assets/icons8-location-50.png" alt="" class="logo2"></a>
+            </div>
+        </div>
+        <div class="cont">
+            <div class="add_form">
+                <form action="" class="form">
+                <div>
+                    <div class="in_name">
+                        <div>
+                            <div class="flex-column lm">
+                                <label>Model</label></div>
+                            <div class="inputForm1">
+                                <input type="text" class="input" placeholder="Car model" required>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex-column lt">
+                                <label>Type</label></div>
+                            <div class="inputForm1">
+                                <select class="input" placeholder="Car model" required>
+                                    <option value="default"></option>
+                                    <option value="">Automatic</option>
+                                    <option value="">Manual</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex-column ly">
+                                <label>Year</label></div>
+                            <div class="inputForm1">
+                                <input type="number" class="input" placeholder="Car model" required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="in_name">
+                        <div>
+                            <div class="flex-column ll">
+                                <label>Location</label></div>
+                            <div class="inputForm1">
+                                <select class="input" placeholder="Car model" required></select>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex-column lp">
+                                <label>Price</label></div>
+                            <div class="inputForm1">
+                                <input type="text" class="input" placeholder="Car model" required>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex-column li">
+                                <label>Image</label></div>
+                            <div class="inputForm1">
+                                <label class="custom-file-upload">
+                                    <input type="file"/>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    <div class="in_name">
+                        <button class="addbtn">Add</button>
+                    </div>
+                </form>
+            </div>
+            <div class="display">
+                <div class="search">
+                    <img src="assets/icons8-search.gif" alt="">
+                   <form method="get">
+                        <input id="gfg" type="search" placeholder="Search"></input>
+                    </form>
+                </div>
+                <table frame=void rules=rows>
+                        <tr>
+                            <form action="" method="get">
+                                <th></th>
+                                <th>model</th>
+                                <th>year</th>
+                                <th>type</th>
+                                <th>Location</th>
+                                <th>Status</th>
+                                <th>price</th>
+                                <th>Action</th>
+                            </form>
+                        </tr>
+                    <tbody id='geeks'>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
