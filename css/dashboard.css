@@ -147,8 +147,6 @@ section {
 table {
 	width: 90%;
 	text-align: center;
-	margin: 1vh;
-	margin-left: 30px;
 }
 
 table th {
@@ -197,7 +195,6 @@ td button {
 	-ms-border-radius: 15px;
 	-o-border-radius: 15px;
 	border: none;
-	opacity: 0.7;
 	margin-bottom: 8px;
 }
 
@@ -215,20 +212,6 @@ td button {
 	background-color: transparent;
 	cursor: pointer;
 	opacity: 1;
-}
-
-.img1 {
-	width: 25px;
-	height: 25px;
-	opacity: 0.8;
-	margin-right: 10px;
-	margin-top: 10px;
-}
-
-.img2 {
-	width: 27px;
-	height: 25px;
-	opacity: 0.8;
 }
 
 .tri {
@@ -346,7 +329,7 @@ td button {
 
   .in_name{
     display: flex;
-    gap: 2vh;
+    gap: 7vh;
 }
 
 .inputForm1 {
@@ -371,8 +354,7 @@ td button {
 }
 
 .flex-column{
-    margin-top: 5vh;
-    margin-right: 5vh;
+    margin: auto;
 }
 
 .in_name select {
@@ -397,7 +379,6 @@ input[type=file]::file-selector-button {
 }
 
 .add_form{
-    padding-left: 10vh;
     padding-bottom: 5vh;
     border-bottom: 1px #22222232 solid;
     width: 100%;
