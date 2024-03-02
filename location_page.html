@@ -127,5 +127,38 @@
             });
         });
     </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Get the input element and attach a keyup event listener
+            var searchInput = document.getElementById('gfg');
+            searchInput.addEventListener('keyup', function () {
+                // Get the value of the input and convert it to lowercase
+                var searchTerm = searchInput.value.toLowerCase();
+    
+                // Get all the rows in the table
+                var rows = document.getElementById('geeks').getElementsByTagName('tr');
+    
+                // Loop through each row and hide/show based on the search term
+                for (var i = 0; i < rows.length; i++) {
+                    var dataCells = rows[i].getElementsByTagName('td');
+                    var rowVisible = false;
+    
+                    // Loop through each data cell in the row
+                    for (var j = 0; j < dataCells.length; j++) {
+                        var cellText = dataCells[j].innerText.toLowerCase();
+    
+                        // If the search term is found in any cell, set rowVisible to true
+                        if (cellText.includes(searchTerm)) {
+                            rowVisible = true;
+                            break;
+                        }
+                    }
+    
+                    // Hide or show the row based on rowVisible
+                    rows[i].style.display = rowVisible ? '' : 'none';
+                }
+            });
+        });
+    </script>
 </body>
 </html>
