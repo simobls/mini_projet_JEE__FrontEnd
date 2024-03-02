@@ -483,3 +483,7 @@ footer{
     border-radius: 999px;
     cursor: pointer;
 }
+
+.res_link{
+    text-decoration: none;
+}
