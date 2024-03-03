@@ -400,3 +400,13 @@ input[type=file]::file-selector-button {
 .display{
     margin-top: 2vh;
 }
+
+.logo3{
+    width: 8vh;
+    height: 7vh;
+    padding: 2vh;
+    margin-top: 36vh;
+    opacity: 0.9;
+    align-self: flex-end;
+    border-top: 1px #22222232 solid;
+}
