@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    font-family: 'Raleway', sans-serif;
 }
 
 nav {
@@ -191,4 +192,9 @@ tr {
 
 td img {
     margin-top: 3vh;
+}
+
+h2 {
+    margin-left: 12vh;
+    color: #4b4a4a;
 }
